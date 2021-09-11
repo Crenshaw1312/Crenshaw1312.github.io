@@ -3,16 +3,18 @@ layout: default
 permalink: /plugins/
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-      
-    </article>
-  {% endfor %}
-</div>
+<div class="plugins">
+    {% for post in site.posts %}
+      {% if post.type == "plugin" %}
+        <article class="plugin">
+  
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  
+          <div class="entry">
+            {{ post.excerpt }}
+          </div>
+  
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
