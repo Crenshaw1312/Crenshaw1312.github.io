@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: plugin
 title: Jackson Plugged In
 ---
 
