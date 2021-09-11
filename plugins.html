@@ -1,19 +1,18 @@
 ---
 layout: default
-title: Plugins
 permalink: /plugins/
 ---
 
-<div class="plugins">
-    {% for plugin in site.plugins %}
-      <article class="plugin">
-  
-        <h1><a href="{{ site.baseurl }}{{ plugin.url }}">{{ plugin.title }}</a></h1>
-  
-        <div class="entry">
-          {{ plugin.excerpt }}
-        </div>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-      </article>
-    {% endfor %}
-  </div>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+      
+    </article>
+  {% endfor %}
+</div>
