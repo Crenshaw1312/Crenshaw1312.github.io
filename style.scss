@@ -274,6 +274,30 @@ nav {
   }
 }
 
+.plugins > .plugin {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #eee;
+  background: linear-gradient(135deg, rgba(63, 4, 45, 0.1), rgba(20, 5, 70, 0.5));
+  padding-left: 15px;
+  border-radius: 15px;
+}
+
+.plugins > .plugin:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.plugin {
+  blockquote {
+    margin: 1.8em .8em;
+    border-left: 2px solid $gray;
+    padding: 0.1em 1em;
+    color: $gray;
+    font-size: 22px;
+    font-style: italic;
+  }
+}
+
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid $whitesmoke;
