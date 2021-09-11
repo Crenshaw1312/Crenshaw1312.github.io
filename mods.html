@@ -1,9 +1,9 @@
 ---
 layout: default
-permalink: /plugins/
+permalink: /mods/
 ---
 
-<div class="plugins">
+<div class="mods">
     {% for post in site.posts %}
       {% if post.type == "plugin" %}
         <article class="plugin">
@@ -14,6 +14,16 @@ permalink: /plugins/
             {{ post.excerpt }}
           </div>
   
+        </article>
+      {% elseif post.type == "theme" %}
+        <article class="theme">
+  
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+          <div class="entry">
+            {{ post.excerpt }}
+          </div>
+
         </article>
       {% endif %}
     {% endfor %}

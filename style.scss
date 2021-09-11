@@ -274,20 +274,28 @@ nav {
   }
 }
 
-.plugins > .plugin {
+.mods > .plugin {
   padding-bottom: 2em;
   border-bottom: 1px solid #eee;
-  background: linear-gradient(135deg, rgba(63, 4, 45, 0.1), rgba(20, 5, 70, 0.5));
+  background: linear-gradient(135deg, rgba(63, 4, 45, 0.1), rgba(23, 6, 77, 0.5));
   padding-left: 15px;
   border-radius: 15px;
 }
 
-.plugins > .plugin:last-child {
+.mods > .theme {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #eee;
+  background: linear-gradient(135deg, rgba(63, 4, 45, 0.1), rgba(92, 8, 15, 0.5));
+  padding-left: 15px;
+  border-radius: 15px;
+}
+
+.mods > .plugin:last-child, .theme:last-child {
   padding-bottom: 1em;
   border-bottom: none;
 }
 
-.plugin {
+.plugin, .theme {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
