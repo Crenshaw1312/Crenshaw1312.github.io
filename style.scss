@@ -243,7 +243,10 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid #eee;
+  background: linear-gradient(135deg, rgba(0, 0, 0, .1), rgba(0, 0, 0, .5));
+  padding-left: 15px;
+  border-radius: 15px;
 }
 
 .posts > .post:last-child {
