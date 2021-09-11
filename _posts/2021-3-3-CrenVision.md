@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jackson Plugged In
+title: CrenVision
 excerpt: A bubbly discord theme (base ClearVision)
 type: theme
 ---
