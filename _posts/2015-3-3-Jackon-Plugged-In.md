@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Who is Crenshaw?
-excerpt: Some words on who I am
+title: Jackson Plugged In
+excerpt: My bot Hurricane Jackson as a powercord plugin
 type: plugin
 ---
 
