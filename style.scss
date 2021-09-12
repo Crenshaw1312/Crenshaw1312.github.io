@@ -275,9 +275,13 @@ nav {
 }
 
 .mods {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: row;
+  
   .mod {
-    padding-bottom: 2em;
-    padding-left: 15px;
+    padding: 0px 15px 0px 15px;
     border-radius: 15px;
     max-width: 250px;
     min-height: 350px;
