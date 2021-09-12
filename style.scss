@@ -279,6 +279,8 @@ nav {
     padding-bottom: 2em;
     padding-left: 15px;
     border-radius: 15px;
+    max-width: 250px;
+    min-height: 350px;
 
     blockquote {
       margin: 1.8em .8em;
@@ -290,11 +292,11 @@ nav {
     }
   }
 
-  .plugin {
+  .mod.plugin {
     background: linear-gradient(135deg, rgba(63, 4, 45, 0.1), rgba(81, 26, 255, 0.5));
   }
 
-  .theme {
+  .mod.theme {
     background: linear-gradient(135deg, rgba(63, 4, 45, 0.1), rgba(70, 174, 12, 0.5));
   }
 }
