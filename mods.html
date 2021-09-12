@@ -6,7 +6,7 @@ permalink: /mods/
 <div class="mods">
     {% for post in site.posts %}
       {% if post.type == "plugin" %}
-        <article class="plugin">
+        <article class="mod plugin">
   
           <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
   
@@ -15,8 +15,9 @@ permalink: /mods/
           </div>
   
         </article>
-      {% elseif post.type == "theme" %}
-        <article class="theme">
+      {% endif %}
+      {% if post.type == "theme" %}
+        <article class="mod theme">
   
           <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
