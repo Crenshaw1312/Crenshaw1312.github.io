@@ -289,14 +289,14 @@ nav {
       font-size: 22px;
       font-style: italic;
     }
+  }
 
-    .theme {
-      background: linear-gradient(135deg, rgba(63, 4, 45, 0.1), rgba(92, 8, 15, 0.5));
-    }
-  
-    .plugin {
-      background: linear-gradient(135deg, rgba(63, 4, 45, 0.1), rgba(23, 6, 77, 0.5));
-    }
+  .mod.theme {
+    background: linear-gradient(135deg, rgba(63, 4, 45, 0.1), rgba(92, 8, 15, 0.5));
+  }
+
+  .mod.plugin {
+    background: linear-gradient(135deg, rgba(63, 4, 45, 0.1), rgba(23, 6, 77, 0.5));
   }
 }
 
