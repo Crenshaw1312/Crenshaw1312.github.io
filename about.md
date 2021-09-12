@@ -4,12 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Welcome to my site where I'll be sharing my code, thoughts (via blog) and whatever else I feel like having here.
 
 ### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Best way is via discord, Crenshaw#1312 or join [my server](https://discord.com/invite/Qx2hyttRsU) and ping me!
